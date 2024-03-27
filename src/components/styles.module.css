@@ -1,0 +1,23 @@
+.img {
+    width: var(--size);
+    height: var(--size);
+    border: var(--backgroundColor);
+    border-radius: 50%
+}
+
+.container {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--colorWidth);
+    border-radius: 50%;
+    background: linear-gradient(var(--color1), var(--color2)) border-box;
+    
+}
+
+.container:hover {
+    background:linear-gradient(var(--colorToHover1),var(--colorToHover2)) border-box;
+    cursor: pointer;
+}
